@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "30a0a2d6f698645b1beaa0efbef279fa4062696bf4fb3456d640af3e8772f563",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.aliaddo.com/"
+  ],
+  "id": "aliaddo-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Aliaddo MCP setup and connection checker",
+  "description": "Generate Aliaddo MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "aliaddo",
+  "appName": "Aliaddo",
+  "providerDocs": "https://docs.aliaddo.com/",
+  "providerWebsite": "https://www.aliaddo.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.aliaddo.com/autenticaci%C3%B3n-2248457m0",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-aliaddo-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
